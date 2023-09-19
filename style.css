@@ -1,0 +1,60 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+}
+
+#game-container {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+    border: 2px solid #333;
+}
+
+#player {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#item {
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#obstacle {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#score {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-size: 18px;
+}
+
+#restart-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
