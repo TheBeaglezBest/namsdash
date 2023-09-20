@@ -2,16 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Dodge and Collect Game</title>
+    <title>Web Proxy</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="game-container">
-        <div id="player"></div>
-        <div id="item"></div>
-        <div id="obstacle"></div>
-        <div id="score">Score: 0</div>
-        <button id="restart-button">Restart</button>
+    <div id="header" class="blue-bg">
+        <h1>Web Proxy</h1>
+    </div>
+    <div id="main-content">
+        <div id="input-container">
+            <input type="text" id="url-input" placeholder="Enter a website URL">
+            <button id="proxy-button">Proxy</button>
+        </div>
+        <div id="iframe-container">
+            <iframe id="web-iframe"></iframe>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
